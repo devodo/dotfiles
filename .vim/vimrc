@@ -1,8 +1,4 @@
 syntax on
-filetype off " required!
-
-let mapleader="," " change the mapleader from \ to ,
-
 set clipboard=unnamed
 set nocompatible " be iMproved
 set incsearch
@@ -12,43 +8,3 @@ set hlsearch
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-nmap <leader>q :nohlsearch<CR>
-nmap <leader>\ :setlocal number!<CR>
-nmap <leader>o :set paste!<CR>
-nmap <leader>\ff :FufFile
-" Quickly edit/reload the vimrc file
-nmap <silent> <leader>ev :e $MYVIMRC<CR>
-nmap <silent> <leader>sv :so $MYVIMRC<CR>
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" required! 
-Bundle 'gmarik/vundle'
-
-" My bundles here:
-"
-" original repos on GitHub
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
-Bundle 'scrooloose/nerdtree'
-" vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'thanthese/Tortoise-Typing'
-Bundle 'clang-complete'
-
-filetype plugin indent on     " required!
-"
-" Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install (update) bundles
-" :BundleSearch(!) foo - search (or refresh cache first) for foo
-" :BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
-"
-" see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle commands are not allowed.
