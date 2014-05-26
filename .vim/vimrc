@@ -1,0 +1,17 @@
+syntax on
+set ruler "Cursor current position
+set showcmd "??
+set noerrorbells "Turn off the bell e.g. Esc Esc Esc
+set clipboard=unnamed "Yank/put using X clipboard
+set nocompatible "Turn on Vim features
+set incsearch
+set ignorecase
+set smartcase "Case insensitive search unless upper case char present
+set hlsearch
+set tabstop=4
+set shiftwidth=4
+set noexpandtab "Don't change tabs into spaces - use :retab
+set autoindent
+set list "Show end of line, space, tab chars
+set lcs=tab:»· 
+set lcs+=trail:·
