@@ -1,51 +1,68 @@
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+	ignore = dirty
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+	ignore = dirty
 [submodule ".vim/bundle/vim-git"]
 	path = .vim/bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
+	ignore = dirty
 [submodule ".vim/bundle/Command-T"]
 	path = .vim/bundle/Command-T
 	url = https://github.com/wincent/Command-T.git
+	ignore = dirty
 [submodule ".vim/bundle/pytest.vim"]
 	path = .vim/bundle/pytest.vim
 	url = https://github.com/alfredodeza/pytest.vim.git
+	ignore = dirty
 [submodule ".vim/bundle/vim-makegreen"]
 	path = .vim/bundle/vim-makegreen
 	url = https://github.com/reinh/vim-makegreen
+	ignore = dirty
 [submodule ".vim/bundle/The-NERD-tree"]
 	path = .vim/bundle/The-NERD-tree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
+	ignore = dirty
 [submodule ".vim/bundle/supertab"]
 	path = .vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+	ignore = dirty
 [submodule ".vim/bundle/minibufexpl"]
 	path = .vim/bundle/minibufexpl
 	url = https://github.com/fholgado/minibufexpl.vim.git
+	ignore = dirty
 [submodule ".vim/bundle/pyflakes-pathogen.git"]
 	path = .vim/bundle/pyflakes-pathogen.git
 	url = https://github.com/mitechie/pyflakes-pathogen.git
+	ignore = dirty
 [submodule ".vim/bundle/ack.vim"]
 	path = .vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
+	ignore = dirty
 [submodule ".vim/bundle/gundo.vim"]
 	path = .vim/bundle/gundo.vim
 	url = https://github.com/sjl/gundo.vim.git
+	ignore = dirty
 [submodule ".vim/bundle/pydoc.vim"]
 	path = .vim/bundle/pydoc.vim
 	url = https://github.com/fs111/pydoc.vim.git
+	ignore = dirty
 [submodule ".vim/bundle/pep8"]
 	path = .vim/bundle/pep8
 	url = https://github.com/vim-scripts/pep8.git
+	ignore = dirty
 [submodule ".vim/bundle/ropevim"]
 	path = .vim/bundle/ropevim
 	url = https://github.com/python-rope/ropevim.git
+	ignore = dirty
 [submodule ".vim/bundle/snipmate.vim"]
 	path = .vim/bundle/snipmate.vim
 	url = https://github.com/msanders/snipmate.vim.git
+	ignore = dirty
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+	ignore = dirty
