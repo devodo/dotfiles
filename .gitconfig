@@ -1,0 +1,7 @@
+[github]
+	user = devodo 
+[user]
+	name = David Naylor 
+	email = github@devodo.com
+[core]
+	editor = /usr/bin/vim
