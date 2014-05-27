@@ -5,3 +5,5 @@
 	email = github@devodo.com
 [core]
 	editor = /usr/bin/vim
+[credential]
+	helper = osxkeychain
